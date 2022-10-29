@@ -25,7 +25,7 @@ export function Header({ headerText }: HeaderProps) {
             </h2>
             <div className="flex items-center gap-4">
                 <div className="bg-gray-400 flex flex-row rounded-full p-1 transition delay-100"  onClick={showTextSearch}>
-                { isShowInputSearch ? <TextInput placeholder="Pesquisar" /> : null }
+                    { isShowInputSearch ? <TextInput placeholder="Pesquisar" /> : null }
                     <button>
                         <MagnifyingGlass size={25} color="#5A5860" />
                     </button>
